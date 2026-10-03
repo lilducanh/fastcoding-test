@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reanty - Real Estate</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/poppins-font/index.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container--wide header__top-inner">
+                <div class="header__top-left">
+                    <a class="header__top-contact" href="mailto:Info@webmail.com">
+                        <i class="header__top-icon fa-regular fa-envelope"></i>
+                        <span>Info@webmail.com</span>
+                    </a>
+
+                    <div class="header__top-contact">
+                        <i class="header__top-icon fa-solid fa-location-dot"></i>
+                        <span>547 ns tower St. anglo City, USA</span>
+                    </div>
+                </div>
+
+                <div class="header__top-social">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__navbar">
+            <div class="container--wide header__navbar-inner">
+                <a href="#" class="header__logo" aria-label="Reanty home">
+                    <!-- Original logo SVG -->
+                    <svg class="header__logo-svg" width="172" height="55" viewBox="0 0 172 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.4544 23.4062C36.4544 25.6742 35.1944 27.1502 32.3864 27.1502H28.1744V19.7702H32.3864C35.1944 19.7702 36.4544 21.1742 36.4544 23.4062ZM23.1344 15.5942V40.7222H28.1744V30.9302H30.5504L36.0944 40.7222H41.9264L35.9144 30.5342C39.9464 29.4542 41.6384 26.3582 41.6384 23.2982C41.6384 19.0862 38.6144 15.5942 32.5664 15.5942H23.1344ZM54.7649 24.5942C57.3569 24.5942 59.4449 26.2502 59.5169 28.8782H50.0489C50.4449 26.1422 52.3529 24.5942 54.7649 24.5942ZM64.2329 34.4582H58.7969C58.1489 35.7902 56.9609 36.8702 54.8009 36.8702C52.2809 36.8702 50.2649 35.2142 50.0129 32.2622H64.5929C64.7009 31.6142 64.7369 30.9662 64.7369 30.3182C64.7369 24.3782 60.6689 20.4542 54.9089 20.4542C49.0049 20.4542 44.9009 24.4502 44.9009 30.7502C44.9009 37.0142 49.1129 41.0462 54.9089 41.0462C59.8409 41.0462 63.1529 38.1302 64.2329 34.4582ZM67.1196 30.6782C67.1196 36.9062 71.1516 41.0462 76.1916 41.0462C79.3596 41.0462 81.6276 39.5342 82.8156 37.8062V40.7222H87.8916V20.7782H82.8156V23.6222C81.6276 21.9662 79.4316 20.4542 76.2276 20.4542C71.1516 20.4542 67.1196 24.4502 67.1196 30.6782ZM82.8156 30.7502C82.8156 34.5302 80.2956 36.6182 77.5236 36.6182C74.8236 36.6182 72.2676 34.4582 72.2676 30.6782C72.2676 26.8982 74.8236 24.8822 77.5236 24.8822C80.2956 24.8822 82.8156 26.9702 82.8156 30.7502ZM106.782 40.7222H111.822V29.0222C111.822 23.5142 108.51 20.4902 103.866 20.4902C101.31 20.4902 99.1501 21.5702 97.8541 23.2622V20.7782H92.8141V40.7222H97.8541V29.7062C97.8541 26.5022 99.6181 24.7742 102.354 24.7742C105.018 24.7742 106.782 26.5022 106.782 29.7062V40.7222ZM117.407 34.5302C117.407 39.1022 119.963 40.7222 123.779 40.7222H126.947V36.4742H124.607C123.023 36.4742 122.483 35.8982 122.483 34.5662V24.9182H126.947V20.7782H122.483V15.8462H117.407V20.7782H115.031V24.9182H117.407V34.5302ZM139.068 34.7102L133.92 20.7782H128.268L136.26 40.2182L131.94 50.1542H137.304L149.652 20.7782H144.288L139.068 34.7102Z" fill="#071C1F"/>
+                        <path d="M157.661 38.0222C157.661 36.3662 156.365 35.0702 154.601 35.0702C152.765 35.0702 151.469 36.3662 151.469 38.0222C151.469 39.6782 152.765 40.9742 154.601 40.9742C156.365 40.9742 157.661 39.6782 157.661 38.0222Z" fill="#FF5A3C"/>
+                        <path d="M44.809 48.2649C40.5808 51.7959 35.3835 53.9655 29.8998 54.4887C24.416 55.012 18.9022 53.8644 14.0826 51.1967C9.26297 48.529 5.36289 44.466 2.89458 39.5413C0.426282 34.6166 -0.494807 29.0605 0.252295 23.6027C0.999397 18.145 3.37975 13.0408 7.08072 8.9606C10.7817 4.88039 15.6302 2.01496 20.9894 0.740654C26.3487 -0.533651 31.968 -0.157236 37.1094 1.82046C42.2508 3.79816 46.6738 7.28465 49.7976 11.822L44.1769 15.6915C41.8338 12.2881 38.5161 9.67286 34.6595 8.1894C30.803 6.70594 26.5879 6.42359 22.568 7.37944C18.548 8.33529 14.9112 10.4846 12.1351 13.5452C9.35902 16.6057 7.57352 20.4344 7.01312 24.5282C6.45272 28.6221 7.14363 32.7897 8.9951 36.4837C10.8466 40.1777 13.772 43.2254 17.3872 45.2264C21.0024 47.2274 25.1383 48.0882 29.2516 47.6957C33.3649 47.3032 37.2634 45.6758 40.4349 43.0272L44.809 48.2649Z" fill="#FF5A3C"/>
+                    </svg>
+                </a>
+
+                <button class="header__menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="header__navbar-right" id="primary-navigation">
+                    <nav class="header__menu" aria-label="Primary navigation">
+                        <a href="#" class="header__menu-link header__menu-link--active">Home</a>
+                        <a href="#about" class="header__menu-link">About</a>
+                        <a href="#feature" class="header__menu-link">Feature</a>
+                        <a href="#market" class="header__menu-link">Market</a>
+                        <a href="#services" class="header__menu-link">Services</a>
+                        <a href="#contact" class="header__menu-link">Contact</a>
+                    </nav>
+
+                    <div class="header__auth">
+                        <a href="#" class="btn header__login">Log In</a>
+                        <a href="#" class="btn header__signup">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container--wide hero__inner">
+                <div class="hero__content">
+                    <h1 class="hero__title">Find the best Real<br>Estate on your<br>country<span>.</span></h1>
+
+                    <p class="hero__desc">With over 1 million homes for sale available on the<br>website, Renting can match you with a house.</p>
+
+                    <a href="#" class="btn hero__button">Start membership <i class="fa-solid fa-chevron-right"></i></a>
+
+                    <div class="hero__arrow" aria-hidden="true">
+                        <!-- Original arrow SVG -->
+                        <svg width="228" height="122" viewBox="0 0 228 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M124.789 116.023C126.025 115.733 127.135 115.944 128.283 116.367C137.861 119.908 147.745 121.61 157.98 121.463C170.103 121.289 182.037 120.162 193.595 116.122C199.661 114.004 205.623 111.689 211.337 108.757C211.987 108.424 212.687 107.705 213.415 108.23C214.348 108.9 213.6 109.819 213.413 110.602C212.936 112.601 212.264 114.56 211.905 116.581C211.635 118.103 212.656 119.752 213.76 120.027C215.27 120.407 215.865 119.246 216.534 118.266C216.841 117.821 217.142 117.364 217.405 116.893C220.377 111.603 223.32 106.297 226.319 101.018C227.439 99.0423 227.617 97.105 226.282 95.2202C224.975 93.3727 223.072 93.2458 221.018 93.6204C213.852 94.9165 206.679 96.1758 199.508 97.4685C198.548 97.6415 197.586 97.8742 196.678 98.2157C195.731 98.5729 194.916 99.1981 194.984 100.35C195.052 101.532 195.966 101.977 196.976 102.155C197.934 102.325 198.924 102.32 199.887 102.472C200.915 102.63 202.036 102.314 203.04 103.001C202.56 104.09 201.532 104.212 200.68 104.586C189.101 109.663 176.957 112.36 164.354 112.989C156.523 113.381 148.702 113.381 141.019 111.476C140.351 111.309 139.419 111.472 139.253 110.266C142.468 108.12 145.579 105.772 148.521 103.197C165.39 88.4236 163.442 63.7695 148.82 51.2608C145.758 48.6417 142.637 46.0754 139.06 44.2521C129.723 39.4997 119.875 38.4468 109.998 42.0691C91.2631 48.9481 87.3285 71.0005 91.9193 83.4673C95.3806 92.8776 101.735 100.196 109.647 106.242C110.91 107.208 112.42 107.872 113.58 109.238C112.781 109.898 112.22 109.877 111.688 109.901C103.696 110.249 95.8186 109.484 88.1587 107.169C70.9445 101.961 55.7066 93.1371 42.1989 81.4311C33.3034 73.7244 25.9938 64.5294 19.4802 54.7717C11.0101 42.0643 5.1901 28.2991 3.57998 12.9748C3.18976 9.27696 3.07723 5.60952 5.23619 2.29892C5.64936 1.66556 6.28124 0.971605 5.48661 0.314652C4.63222 -0.390801 3.85902 0.227019 3.19703 0.82479C2.45403 1.49221 2.00181 2.357 1.57871 3.24195C0.581701 5.33118 0.114022 7.54937 0.0380649 9.8409C-0.31161 20.404 1.74594 30.567 5.91194 40.2059C15.1938 61.6624 28.7876 79.979 47.3932 94.2971C60.6622 104.514 75.2473 112.359 91.8375 115.922C102.792 118.279 113.797 118.623 124.789 116.023ZM124.917 105.738C115.678 101.056 107.661 95.0415 101.883 86.2479C95.6535 76.7693 96.5411 62.8914 104.196 54.6102C108.484 49.9716 113.932 47.7319 120.135 47.5537C126.913 47.3606 133.267 48.9206 138.809 53.0783C143.177 56.3555 147.233 59.8919 149.74 64.8764C150.82 67.0272 151.48 69.2961 151.747 71.293C153.597 81.0869 151.177 89.2205 144.297 95.9987C140.162 100.072 135.528 103.405 130.206 105.779C128.411 106.581 126.746 106.661 124.917 105.738Z" fill="#FF5A3C"/>
+                        </svg>
+                    </div>
+
+                    <div class="hero__slider-preview" aria-hidden="true">
+                        <div class="hero__slide hero__slide--1">HOUSE 1</div>
+                        <div class="hero__slide hero__slide--2">HOUSE 2</div>
+                        <div class="hero__slide hero__slide--3">HOUSE 3</div>
+                        <div class="hero__pagination">
+                            <span class="hero__pagination-line"></span>
+                            <b >1</b><span>2</span><span>3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual">
+                    <div class="image-placeholder hero__image"></div>
+
+                    <div class="hero__revenue-card">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_2_670)">
+                           <path d="M12.2266 11.9105C12.6854 5.25586 18.229 0 25.0002 0C31.7714 0 37.3149 5.25586 37.7738 11.9105C37.7941 12.2059 37.7738 24.5063 25.0002 24.5063C12.2265 24.5062 12.2061 12.2059 12.2266 11.9105Z" fill="#FFBA57"/>
+                           <path d="M12.3722 33.7565L17.4208 39.1238C17.6641 39.3824 17.6959 39.7841 17.4731 40.0831C17.3298 40.2752 17.0964 40.3789 16.8567 40.3789H15.416L15.4161 49.255C15.4161 49.6664 15.0826 49.9999 14.6713 49.9999H8.96687C8.55554 49.9999 8.22205 49.6664 8.22205 49.255L8.22207 40.3789H6.75977C6.40479 40.3789 6.09043 40.1269 6.0253 39.7599C5.9834 39.5239 6.06778 39.2828 6.23203 39.1081L11.2766 33.7453C11.4836 33.5251 11.8107 33.4453 12.1104 33.5692C12.2104 33.6106 12.298 33.6776 12.3722 33.7565Z" fill="#FF5A3C"/>
+                           <path d="M25.5427 28.6217L30.5876 33.985C30.7518 34.1596 30.8359 34.4007 30.794 34.6366C30.7286 35.0035 30.4144 35.2554 30.0595 35.2554H28.5972L28.5973 49.2555C28.5973 49.6668 28.2638 50.0003 27.8525 50.0003H22.1481C21.7368 50.0003 21.4033 49.6668 21.4033 49.2555L21.4032 35.2554H19.9409C19.5859 35.2554 19.2716 35.0033 19.2064 34.6363C19.1646 34.4003 19.2489 34.1592 19.4132 33.9846L24.4521 28.6276C24.5185 28.557 24.5961 28.4966 24.6843 28.4564C24.9902 28.3174 25.33 28.3955 25.5427 28.6217Z" fill="#FF5A3C"/>
+                           <path d="M38.7235 23.8805L43.7683 29.2438C43.9325 29.4183 44.0168 29.6595 43.9746 29.8954C43.9092 30.2623 43.595 30.5142 43.2401 30.5142H41.7779L41.778 49.2553C41.778 49.6666 41.4445 50.0001 41.0332 50.0001H35.3288C34.9174 50.0001 34.584 49.6666 34.584 49.2553L34.5839 30.5142H33.1216C32.7668 30.5142 32.4525 30.2623 32.3872 29.8954C32.3452 29.6595 32.4294 29.4184 32.5936 29.2438L37.6385 23.8805C37.7793 23.7309 37.9756 23.646 38.181 23.646C38.3864 23.646 38.5828 23.7309 38.7235 23.8805Z" fill="#FF5A3C"/>
+                           <path d="M15.9896 11.9107C16.4384 7.32988 20.3013 3.75049 25 3.75049C29.6879 3.75049 33.5437 7.31318 34.0073 11.8788C34.0381 12.1832 34.0075 20.9797 25 20.9797C15.9894 20.9796 15.9608 12.2048 15.9896 11.9107Z" fill="#FFE27A"/>
+                           <path d="M24.7163 16.2968C23.5443 16.2254 23.2224 15.52 23.1626 15.3543C23.0772 15.0354 22.787 14.8002 22.4411 14.8002C22.0281 14.8002 21.6934 15.135 21.6934 15.5479C21.6934 15.6079 21.7012 15.666 21.7146 15.7219L21.7143 15.722C21.7149 15.7246 21.7164 15.7298 21.7183 15.7362C21.7274 15.7715 21.7383 15.8061 21.7522 15.8391C21.8902 16.2198 22.4434 17.4011 24.0731 17.7166V18.7096C24.0731 19.1217 24.4071 19.4558 24.8193 19.4558C25.2316 19.4558 25.5656 19.1217 25.5656 18.7096V17.7391C26.2799 17.6147 26.7598 17.3025 27.0598 17.0202C27.618 16.4949 27.9513 15.7009 27.9513 14.896C27.9513 14.1398 27.6547 12.3483 24.9076 12.0452C24.3635 11.9852 23.9752 11.812 23.7537 11.5305C23.5582 11.2819 23.537 11.0073 23.537 10.9008C23.537 10.7695 23.5731 9.61846 24.8193 9.61846C25.637 9.61846 25.9672 10.1385 26.0293 10.2516C26.14 10.5262 26.4084 10.7203 26.7227 10.7203C27.1357 10.7203 27.4704 10.3855 27.4704 9.97256C27.4704 9.8498 27.4402 9.73428 27.3878 9.63203L27.3882 9.63184C27.1778 9.17461 26.5839 8.45938 25.5656 8.21309V7.21162C25.5656 6.79951 25.2316 6.46533 24.8193 6.46533C24.4072 6.46533 24.0731 6.79941 24.0731 7.21162V8.21006C22.6001 8.55977 22.0445 9.93408 22.0445 10.9007C22.0445 11.9755 22.7515 13.3086 24.7439 13.5285C26.4587 13.7178 26.4587 14.6045 26.4587 14.8959C26.4587 15.2055 26.348 15.6405 26.0369 15.9331C25.743 16.2099 25.2989 16.3323 24.7163 16.2968Z" fill="#FF5A3C"/>
+                           </g>
+                           <defs>
+                           <clipPath id="clip0_2_670">
+                           <rect width="50" height="50" fill="white"/>
+                           </clipPath>
+                           </defs>
+                           </svg>
+                           
+                        <strong>$7454.21</strong>
+                        <span>Revenue</span>
+                    </div>
+
+                    <a href="#" class="hero__video-card">
+                        <span>How it works</span>
+                        <span class="hero__play"><i class="fa-solid fa-play"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMMERCIAL GUIDE -->
+        <section class="section section--white guide" id="feature">
+            <div class="container">
+                <div class="section-heading section-heading--center">
+                    <h2 class="section-title">Commercial Real Estate<br>And Office</h2>
+                    <p class="section-desc">Work with Renting brokers who help you to get<br>started with smart tools to.</p>
+                </div>
+
+                <div class="guide__grid">
+                    <article class="guide__card">
+                        <div class="guide__icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <h3>Buyer Guides</h3>
+                        <p>Nurture valuable leads into customers, and turn one time.</p>
+                    </article>
+
+                    <article class="guide__card guide__card--active">
+                        <div class="guide__icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                        <h3>Renter Guides</h3>
+                        <p>Build brand awareness on the top social media networks.</p>
+                    </article>
+
+                    <article class="guide__card">
+                        <div class="guide__icon"><i class="fa-solid fa-house-circle-check"></i></div>
+                        <h3>Seller Guides</h3>
+                        <p>Get professionally-written content that attracts qualified.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- DREAM LIVING -->
+        <section class="section section--white dream" id="about">
+            <div class="container dream__grid">
+                <div class="dream__media">
+                    <div class="dream__shape dream__shape--one"></div>
+                    <div class="dream__shape dream__shape--two"></div>
+                    <div class="dream__rating"><i class="fa-solid fa-star"></i><span>5 Star Rating</span></div>
+                </div>
+
+                <div class="dream__content">
+                    <h2 class="section-title">Dream Living Spaces<br>Setting New Build</h2>
+                    <p class="section-desc dream__desc">SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
+
+                    <div class="dream__features">
+                        <div class="dream__feature">
+                           <i class="fa-solid fa-house"></i>
+                            <div><h3>The perfect Sidencye</h3><p>Take a deep dive and browse origin neighborhood photos.</p></div>
+                        </div>
+                        <div class="dream__feature ">
+                           <i class="fa-solid fa-user-check"></i>
+                            <div><h3>Global Arhitect Experts</h3><p>Take a deep dive and browse origin neighborhood photos.</p></div>
+                        </div>
+                        <div class="dream__feature">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <div><h3>Built-in a storage capable</h3><p>Take a deep dive and browse origin neighborhood photos.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TODAY SELLS PROPERTIES -->
+        <section class="section section--white home-sale">
+            <div class="container home-sale__grid">
+                <div class="home-sale__content">
+                    <div class="home-sale__eyebrow"><i class="fa-regular fa-circle-dot"></i> About home</div>
+                    <h2 class="section-title">Today Sells Properties</h2>
+                    <p class="section-desc home-sale__desc">SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
+
+                    <ul class="home-sale__list">
+                        <li class="list-item"><span></span>Live Music concert at Newyork</li>
+                        <li class="list-item"><span></span>Our best boat Tour is just for you</li>
+                        <li class="list-item"><span></span>Live Music concert at Newyork</li>
+                        <li class="list-item"><span></span>Our best boat Tour is just for you</li>
+                        <li class="list-item"><span></span>Live Music concert at Newyork</li>
+                    </ul>
+
+                    <div class="home-sale__slider" aria-hidden="true">
+                        <div class="home-sale__slide home-sale__slide--1">HOUSE 1</div>
+                        <div class="home-sale__slide home-sale__slide--2">HOUSE 2</div>
+                        <div class="home-sale__slide home-sale__slide--3">HOUSE 3</div>
+                        <div class="home-sale__pagination">
+                            <span class="home-sale__pagination-line"></span>
+                            <b>1</b><span>2</span><span>3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-sale__gallery">
+                    <div class="image-placeholder home-sale__gallery-main"></div>
+                    <div class="image-placeholder home-sale__gallery-small"></div>
+                    <div class="image-placeholder home-sale__gallery-small"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="section section--gray services" id="services">
+            <div class="container">
+                <div class="section-heading section-heading--center">
+                    <h2 class="section-title">Services provide for you</h2>
+                    <p class="section-desc">There are many variations of passages of Lorem Ipsum available,<br>but the majority have suffered alteration.</p>
+                </div>
+
+                <div class="services__grid">
+                    <article class="services__card">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+                        <h3>Bed Rooms</h3>
+                        <p>Desktop publishing software like aldus page maker including</p>
+                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="services__card">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-bath"></i>
+                        </div>
+                        <h3>Swimming Pool</h3>
+                        <p>React creative agency amet, consec tetur adipiscing elit.</p>
+                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="services__card">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-ruler-combined"></i>
+                        </div>
+                        <h3>Copywriting content</h3>
+                        <p>The standard chunk of used since the 1500s is reproduced</p>
+                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="services__card">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-house-circle-check"></i>
+                        </div>
+                        <h3>Smart Home</h3>
+                        <p>The standard chunk of used since the 1500s is reproduced</p>
+                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="services__card">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <h3>Library area</h3>
+                        <p>Desktop publishing software like aldus page maker including</p>
+                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="services__card">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-user-clock"></i>
+                        </div>
+                        <h3>Responsive Duty</h3>
+                        <p>React creative agency amet, consec tetur adipiscing elit.</p>
+                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PROPERTY -->
+        <section class="section section--white property" id="market">
+            <div class="container">
+                <div class="property__head">
+                    <div>
+                        <h2 class="section-title">Featured Property</h2>
+                        <p class="section-desc">Find your suitable house here and stay safe and<br>relaxe with pleasure</p>
+                    </div>
+
+                    <nav class="property__tabs" aria-label="Property categories">
+                        <a class="property__tab property__tab--active" href="#">Appartment</a>
+                        <a class="property__tab" href="#">Vila</a>
+                        <a class="property__tab" href="#">Land</a>
+                    </nav>
+                </div>
+
+                <div class="property__grid">
+                    <article class="property__card">
+                        <div class="image-placeholder property__image"></div>
+                        <div class="property__info">
+                            <h3>The Stokes Appartment</h3>
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cleveland, United States
+                            </span>
+                            <div class="property__price">
+                                <strong class="property__price--active">$2,32,120</strong>
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="property__card">
+                        <div class="image-placeholder property__image"></div>
+                        <div class="property__info">
+                            <h3>The Stokes Appartment</h3>
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cleveland, United States
+                            </span>
+                            <div class="property__price">
+                                <strong>$2,32,120</strong>
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="property__card">
+                        <div class="image-placeholder property__image"></div>
+                        <div class="property__info">
+                            <h3>The Stokes Appartment</h3>
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cleveland, United States
+                            </span>
+                            <div class="property__price">
+                                <strong>$2,32,120</strong>
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="property__action"><a href="#" class="btn btn--outline">Explore Property</a></div>
+            </div>
+        </section>
+
+        <!-- MAP BANNER -->
+        <section class="map-banner">
+            <div class="container map-banner__inner">
+                <div class="map-banner__unit">
+                    <span>UNIT NO.</span>
+                    <strong>9A</strong>
+                </div>
+                <div class="map-banner__card">
+                    <div class="map-banner__thumb">
+                       
+                        <svg class="map-banner__thumb-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <circle cx="10" cy="10" r="10" fill="#FF5A3C"/>
+                            <g clip-path="url(#map-banner-thumb-icon-clip)">
+                                <path d="M10.0002 5.33331C7.42293 5.33331 5.3335 7.42275 5.3335 9.99998C5.3335 12.5772 7.42293 14.6666 10.0002 14.6666C12.5774 14.6666 14.6668 12.5772 14.6668 9.99998C14.6668 7.42275 12.5774 5.33331 10.0002 5.33331ZM11.3406 11.8398C11.1371 12.0875 10.872 12.2546 10.5629 12.3391C10.4284 12.3756 10.367 12.4466 10.3746 12.5868C10.3804 12.7251 10.3746 12.8614 10.3727 12.9997C10.3727 13.1226 10.3094 13.1879 10.1884 13.1917C10.1096 13.1937 10.0309 13.1956 9.95215 13.1956C9.88302 13.1956 9.81388 13.1956 9.74474 13.1937C9.61415 13.1917 9.5527 13.1169 9.5527 12.9901C9.55078 12.8902 9.55078 12.7885 9.55078 12.6886C9.54886 12.4658 9.54118 12.4581 9.32801 12.4236C9.05531 12.3794 8.78645 12.3179 8.53679 12.197C8.3409 12.1009 8.31978 12.0529 8.37547 11.8455C8.41772 11.6919 8.45997 11.5383 8.50798 11.3865C8.54255 11.2752 8.5752 11.2252 8.63473 11.2252C8.6693 11.2252 8.71347 11.2425 8.773 11.2732C9.04955 11.4173 9.34337 11.4979 9.65256 11.5363C9.70441 11.5421 9.75627 11.5459 9.80812 11.5459C9.95215 11.5459 10.0923 11.519 10.2287 11.4595C10.5725 11.3097 10.6262 10.9122 10.3362 10.6741C10.2383 10.5934 10.125 10.5339 10.0078 10.482C9.70634 10.3495 9.3933 10.2496 9.10908 10.0787C8.64817 9.80217 8.35627 9.42385 8.39083 8.86308C8.42924 8.22934 8.78837 7.83372 9.37026 7.62248C9.61031 7.53606 9.61223 7.53798 9.61223 7.28832C9.61223 7.20382 9.61031 7.11932 9.61415 7.0329C9.61992 6.8447 9.65064 6.81205 9.83885 6.80629C9.85997 6.80629 9.88302 6.80629 9.90414 6.80629C9.94063 6.80629 9.97712 6.80629 10.0136 6.80629C10.029 6.80629 10.0443 6.80629 10.0578 6.80629C10.415 6.80629 10.415 6.82165 10.4169 7.20766C10.4188 7.49189 10.4188 7.49189 10.7011 7.53606C10.9181 7.57062 11.1236 7.634 11.3233 7.72234C11.4328 7.77035 11.4751 7.84717 11.4405 7.96431C11.3906 8.13715 11.3425 8.31191 11.2888 8.48283C11.2542 8.58654 11.2216 8.63455 11.1601 8.63455C11.1255 8.63455 11.0833 8.6211 11.0295 8.59422C10.753 8.45979 10.463 8.39449 10.1596 8.39449C10.1212 8.39449 10.0808 8.39641 10.0424 8.39833C9.95215 8.40409 9.86381 8.41562 9.77931 8.45211C9.47972 8.5827 9.43171 8.91301 9.68713 9.11658C9.8158 9.22028 9.96367 9.29326 10.1154 9.35663C10.3804 9.4661 10.6454 9.57172 10.897 9.70999C11.6882 10.1517 11.9033 11.1561 11.3406 11.8398Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="map-banner-thumb-icon-clip">
+                                    <rect width="9.33333" height="9.33333" fill="white" transform="translate(5.3335 5.33331)"/>
+                                </clipPath>
+                            </defs>    
+                        </svg>
+                    </div>
+                    <div class="map-banner__content">
+                        <strong>$4,000</strong>
+                        <span>242 Metric way</span>
+                        <div class="map-banner__meta">
+                            <span>
+                                <i class="fa-solid fa-bed"></i>
+                                2
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-bath"></i>
+                                2
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-ruler-combined"></i>
+                                500sqf
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL -->
+        <section class="section section--white testimonial">
+            <div class="container">
+                <div class="section-heading section-heading--center">
+                    <h2 class="section-title">What our customers are saying</h2>
+                    <p class="section-desc">We make sure you have a fine distance with the<br>sickness. We make you never lose hope.</p>
+                </div>
+
+                <div class="testimonial__wrap">
+                    <button class="testimonial__nav testimonial__nav--prev" type="button">
+                        <i class="fa-solid fa-left-long"></i>
+                    </button>
+                    <div class="testimonial__main">
+                        <div class="testimonial__photo-wrap">
+                            <div class="testimonial__photo-back"></div>
+                            <div class="image-placeholder testimonial__photo"></div>
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__quote">
+                                <i class="testimonial__quote-icon fa-solid fa-quote-left"></i>
+                            </div>
+                            <p>
+                                We make sure you have a fine distance with the sickness. We make you never lose hope.
+                                We make sure you have with the sickness.
+                            </p>
+                            <div class="testimonial__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Yunus Seyhan</h3>
+                            <span>Postgraduate Student</span>
+                        </div>
+                    </div>
+                    <button class="testimonial__nav testimonial__nav--next" type="button">
+                        <i class="fa-solid fa-right-long"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section section--white projects">
+            <div class="container">
+                <div class="section-heading section-heading--center">
+                    <h2 class="section-title">
+                        We build more projects<br>
+                        successful
+                    </h2>
+                </div>
+                <div class="projects__grid">
+                    <article class="projects__card">
+                        <h3>San Francisco, California</h3>
+                        <a href="#">
+                            See more
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </article>
+                    <article class="projects__card">
+                        <h3>Washington DC</h3>
+                        <a href="#">
+                            See more
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </article>
+                    <article class="projects__card">
+                        <h3>Chicago</h3>
+                        <a href="#">
+                            See more
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </article>
+                </div>
+                <form class="projects__subscribe">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email here">
+                    <button class="btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section class="section section--white blog">
+            <div class="container">
+                <div class="section-heading section-heading--center">
+                    <h2 class="section-title">From our blog</h2>
+                    <p class="section-desc">
+                        Find your suitable house here and stay safe and<br>
+                        relaxe with pleasure
+                    </p>
+                </div>
+                <div class="blog__grid">
+                    <article class="blog__card">
+                        <div class="image-placeholder blog__image"></div>
+                        <div class="blog__content">
+                            <h3>How to rent a home very easily?</h3>
+                            <a class="blog__category" href="#">
+                                <i class="fa-regular fa-bookmark"></i>
+                                Rentals
+                            </a>
+                            <p>
+                                How to rent a home very easily in this pandemic situation.
+                                You can rent house through using our platform...
+                            </p>
+                            <div class="blog__meta">
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    3 years ago
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-user"></i>
+                                    By <b>Mike Hesson</b>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="blog__card">
+                        <div class="image-placeholder blog__image"></div>
+                        <div class="blog__content">
+                            <h3>How to rent a home very easily?</h3>
+                            <a class="blog__category" href="#">
+                                <i class="fa-regular fa-bookmark"></i>
+                                Rentals
+                            </a>
+                            <p>
+                                How to rent a home very easily in this pandemic situation.
+                                You can rent house through using our platform...
+                            </p>
+                            <div class="blog__meta">
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    3 years ago
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-user"></i>
+                                    By <b>Mike Hesson</b>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="blog__card">
+                        <div class="image-placeholder blog__image"></div>
+                        <div class="blog__content">
+                            <h3>How to rent a home very easily?</h3>
+                            <a class="blog__category" href="#">
+                                <i class="fa-regular fa-bookmark"></i>
+                                Rentals
+                            </a>
+                            <p>
+                                How to rent a home very easily in this pandemic situation.
+                                You can rent house through using our platform...
+                            </p>
+                            <div class="blog__meta">
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    3 years ago
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-user"></i>
+                                    By <b>Mike Hesson</b>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="blog__action">
+                    <a href="#" class="btn btn--outline">Read All</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section--white contact" id="contact">
+            <div class="container">
+                <div class="contact__heading text-center">
+                    <span>Contact with us</span>
+                    <h2 class="section-title">Looking For To Buy A Property?</h2>
+                </div>
+                <div class="contact__grid">
+                    <div class="contact__left">
+                        <p class="section-desc">
+                            Browse our property listing and find your best and suitable home or house
+                            for sale, rent and buying. It’s so easy and fast.
+                        </p>
+                        <ul class="contact__list">
+                            <li class="list-item">
+                                <i class="fa-solid fa-check"></i>
+                                Archit ecto beatae vitae dicta sunt
+                            </li>
+                            <li class="list-item">
+                                <i class="fa-solid fa-check"></i>
+                                Largest global RealEstate market
+                            </li>
+                            <li class="list-item">
+                                <i class="fa-solid fa-check"></i>
+                                Nor again is there anyone
+                            </li>
+                        </ul>
+                        <div class="contact__art">
+                            <div class="contact__shape contact__shape--one"></div>
+                            <div class="contact__shape contact__shape--two"></div>
+                            <div class="contact__square contact__square--orange"></div>
+                            <div class="contact__square contact__square--dark"></div>
+                        </div>
+                    </div>
+                    <form class="contact__form">
+                        <h2>Contact Us</h2>
+                        <label>
+                            Name
+                            <input type="text" placeholder="Enter your name">
+                        </label>
+                        <label>
+                            Email
+                            <input type="email" placeholder="Enter your email">
+                        </label>
+                        <label>
+                            Message
+                            <textarea placeholder="Enter your message"></textarea>
+                        </label>
+                        <button type="submit" class="btn contact__submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">
+                        <i class="fa-solid fa-house"></i>
+                        <strong>Reanty<span>.</span></strong>
+                    </a>
+                    <p>
+                        With over 1 million homes<br>
+                        for sale available on the<br>
+                        website.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Mobile</a>
+                    <a href="#">Blog</a>
+                    <a href="#">How we work?</a>
+                </div>
+                <div class="footer__column">
+                    <h4>Contact</h4>
+                    <a href="#">Help/FAQ</a>
+                    <a href="#">Press</a>
+                    <a href="#">Affiliates</a>
+                    <a href="#">Propeort owners</a>
+                    <a href="#">Partners</a>
+                </div>
+                <div class="footer__column">
+                    <h4>More</h4>
+                    <a href="#">Land fees</a>
+                    <a href="#">Property</a>
+                    <a href="#">Law tips</a>
+                    <a href="#">Nadges</a>
+                    <a href="#">Privacy</a>
+                </div>
+                <div class="footer__office">
+                    <h4>Head Office</h4>
+                    <p>
+                        Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22,
+                        Charlottesville, CA 45565
+                    </p>
+                    <h4 class="footer__newsletter-title">News letter</h4>
+                    <div class="footer__newsletter">
+                        <input type="email" placeholder="Enter your email address">
+                        <button type="button">
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <a href="mailto:email@gmail.com">email@gmail.com</a>
+                <a href="tel:+1234567890">(123) 456-7890</a>
+                <span>© 2021 Aeyman Megha All rights reserved.</span>
+            </div>
+        </div>
+        <div class="footer__accent"></div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector(".header__menu-toggle");
+        const navbarRight = document.querySelector(".header__navbar-right");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = navbarRight.classList.toggle("header__navbar-right--open");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+            menuToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+        });
+
+        navbarRight.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("click", () => {
+                navbarRight.classList.remove("header__navbar-right--open");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.setAttribute("aria-label", "Open menu");
+            });
+        });
+
+        document.addEventListener("click", (event) => {
+            if (!event.target.closest(".header__navbar-inner")) {
+                navbarRight.classList.remove("header__navbar-right--open");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.setAttribute("aria-label", "Open menu");
+            }
+        });
+    </script>
+
+</body>
+</html>
