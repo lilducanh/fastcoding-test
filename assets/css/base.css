@@ -148,15 +148,7 @@ button {
     background: var(--main-color);
 }
 
-.image-placeholder {
-    background-color: var(--placeholder);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .text-center {
     text-align: center;
 }
-
 
