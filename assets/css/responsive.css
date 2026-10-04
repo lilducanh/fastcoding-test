@@ -684,7 +684,7 @@
     }
 
     .home-sale__gallery {
-        grid-template-rows: 180px 120px;
+        grid-template-rows: 180px 55px;
     }
 
     .property__info {
